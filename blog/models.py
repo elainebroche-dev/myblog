@@ -12,4 +12,3 @@ class Post(models.Model):
     ) 
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    created_on = models.DateTimeField(auto_now_add=True)
